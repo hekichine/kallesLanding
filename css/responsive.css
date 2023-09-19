@@ -420,6 +420,9 @@
   .body_wrapper.promotion .navbar {
     top: 0;
   }
+  .navbar-light .navbar-nav .nav-link span:is(.hot, .new) {
+    right: 0;
+  }
 }
 
 @media (max-width: 991px) {
@@ -501,7 +504,7 @@
     justify-content: center;
   }
   .elemator_img img {
-    max-width: 100%;
+    max-width: 100% !important;
   }
   .f_two {
     margin-top: 80px;
